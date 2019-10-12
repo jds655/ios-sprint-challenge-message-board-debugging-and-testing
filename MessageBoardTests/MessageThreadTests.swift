@@ -11,5 +11,20 @@ import XCTest
 
 class MessageThreadTests: XCTestCase {
     
+    private var app: XCUIApplication {
+        return XCUIApplication()
+    }
     
+    override func setUp() {
+        continueAfterFailure = false
+        app.launch()
+    }
+    
+    func testCreateMessageThreadObject () {
+      //  let messageThread = MessageThread(title: "Test")
+        //XCTAssertNotNil(messageThread.identifier)
+        //XCTAssertNotNil(messageThread.title)
+        //XCTAssertEqual(messageThread.title, "Test")
+        //XCTAssertNil(messageThread.messages)
+    }
 }

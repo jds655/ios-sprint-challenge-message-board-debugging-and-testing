@@ -23,4 +23,12 @@ class Message_BoardUITests: XCTestCase {
         app.launch()
     }
     
+    
+    func testStuff() {
+        
+    }
+    
+    func testEnterNewThread() {
+        MessageBoardTableViewPage(testCase: self, startingCount: 0).tapOnCreateNewThreadField().typeInMessageThreadName()
+    }
 }
